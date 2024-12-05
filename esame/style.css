@@ -1,0 +1,311 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #0d2b26;
+    color: #ffffff;
+    line-height: 3rem;
+  
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 60px; 
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #429A8C;
+    z-index: 10;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-left: 10px;
+    margin-right: 40px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav ul li a:hover {
+    color: #ffc107;
+    transition: transform 0.3s;
+}
+
+.hero {
+    background: url('hero.jpg') center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content {
+    margin-left: 60px;
+    font-size: 2rem;
+}
+
+.hero-content h1 {
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: #ffc107;
+}
+
+.hero-content2 h1{ 
+    font-size: 120px;
+    margin-bottom: 10px;
+    color:#d21212
+}
+.hero-content3 h1{ 
+    font-size: 120px;
+    margin-bottom: 10px;
+    color: #56a362;
+}
+
+.hero2 {
+    background: url('herodue.jpg') center no-repeat;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    color: #ffffff;
+}
+
+.banner {
+    background-color: #ffc107;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.banner-content {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.banner-content h3 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.icona-banner {
+    width: 15vh;
+    height: 15vh;
+}
+
+.banner2{
+background-color: #d21212;
+height: 100px;
+display: flex;
+justify-content: center;
+text-align: center;
+padding: 20px;
+}
+
+ .banner3{
+  background-color: #56a362; 
+ height: 100px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ padding: 20px;
+}
+.intro {
+    margin-top: 90px;
+    margin-left: 100px;
+    margin-bottom: 92px;
+    font-size: 1.2rem;
+    padding: 20px;
+    text-align: left;
+    max-width: 70ch;
+    line-height: 2rem;
+  z-index: 1;
+    
+}
+
+.intro b {
+    color: #ffc107;
+}
+
+
+.intro h2 {
+    margin-top: -50px;
+    font-size: 3rem;
+    color: #ffc107;
+    margin-bottom: 50px;
+    align-items: left;
+}
+
+.paragrafodestro{
+    margin-top: 200px;
+    margin-left: 600px;
+min-width: 70ch ;
+
+}
+.sfondo{
+    background: url(plastic.jpg);
+    background-size: 100%; 
+   
+  z-index: -1;
+}      
+
+
+.line{
+width: 60%;
+height: 5px;
+background-color:#ffc107;
+
+border-radius: 3px;
+}
+
+
+
+.cards {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: 92px;
+    margin-bottom: 300px;
+ 
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  justify-content: center;
+   border-radius: 10px 10px 0 0;
+}
+
+
+.card img {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain; 
+
+}
+
+.card-text {
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff; 
+    font-size: 18px;
+    justify-content: center;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    border-radius: 0 0 10px 10px;
+    margin-top: -40px;
+}
+.card a{
+ text-decoration:none ;
+ color: #0d2b26;
+ 
+ 
+}
+.card:hover {
+    transform: scale(1.05); 
+}
+.card-gialla {
+    background-color: #ffc107;
+    color: #004d3f;
+}
+
+.card-rossa {
+    background-color: #d21212;
+    color: #004d3f;
+}
+
+.card-verde {
+    background-color: #28a745;
+    color: #004d3f;
+}
+
+
+
+
+
+
+
+.footer {
+    background-color: #429A8C;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+    list-style: none;
+    margin: 0;
+   
+}
+
+.links li {
+    list-style: none;
+
+
+}
+
+.links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    transition: color 0.3s;
+    
+}
+
+.links a:hover {
+    color: #ffc107;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.socials img{
+    
+    width: 20vh;
+    height:20vh;
+    gap:20px;
+    }
+
+
+
+
